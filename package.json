@@ -5,7 +5,7 @@
   "main": "src/custrom-cypher.js",
   "scripts": {
     "dev": "webpack -w src/custom-cypher.js --mode development --module-bind 'js=babel-loader'",
-    "build": "webpack src/custom-cypher.js --mode production --module-bind 'js=babel-loader'"
+    "build": "webpack src/custom-cypher.js --mode production --module-bind 'js=babel-loader' --output='dist/custom-cypher.js' "
   }, 
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-class Cipher {
+class Cypher {
   constructor(hash = {}) {
     this.hasJustALetter(hash) ? this.hash = hash : this.syntaxError('Just one letter in object properties are allowed')
   }
@@ -33,4 +33,4 @@ class Cipher {
   }
 }
 
-module.export = Cipher
+module.export = Cypher
