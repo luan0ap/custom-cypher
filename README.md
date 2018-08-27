@@ -25,5 +25,17 @@ list of properties
 | `cp.encrypt`  | Encrypt a hash using the object passed in instance |
 | `cp.decrypt`  | Decrypt a hash using the object passed in instance |
 
+## Example
+
+```
+import Cypher from './custom-cypher
+
+const cp = new Cypher({{h: 'i', e: 'f', l: 'm', o: 'p'}})
+
+const encrypted = cp.encrypt('hello) // ifmmp
+const decrypted = cp.decrypt(encrypted) // hello
+
+console.log(encrypted, decrypted)
+```
 
 
